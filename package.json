@@ -1,0 +1,32 @@
+{
+    "name": "long-encrypt",
+    "version": "1.0.0",
+    "description": "jsencrypt的长数据加密方法",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "keywords": [
+        "node-jsencrypt",
+        "jsencrypt",
+        "long"
+    ],
+    "homepage": "https://github.com/acccccccb/long-encrypt.git#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/acccccccb/long-encrypt.git"
+    },
+    "author": {
+        "name": "acccccccb",
+        "email": "tabzhang@foxmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/acccccccb/long-encrypt/issues"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "jsencrypt": "^3.2.1",
+        "node-jsencrypt": "^1.0.0"
+    }
+}
