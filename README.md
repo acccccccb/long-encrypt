@@ -8,7 +8,7 @@
 
 ## 测试
 
-`npm run test "Long string..."`
+`npm run test`
 
 ## 使用
 

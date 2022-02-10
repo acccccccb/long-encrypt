@@ -4,7 +4,7 @@
     "description": "jsencrypt的长数据加密方法",
     "main": "src/index.js",
     "scripts": {
-        "test": "node test/test.js"
+        "test": "jest"
     },
     "keywords": [
         "node-jsencrypt",

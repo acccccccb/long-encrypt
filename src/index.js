@@ -23,7 +23,11 @@ function decryptData(decrypt, encryptStr) {
             const decyptStr = decrypt.decrypt(item);
             return decyptStr ? decyptStr : '';
         });
-        return data.join('');
+        const res = data
+            .join('')
+            .replace(/^\"|\"$/g, '')
+            .replace(/\\\"/g, '"');
+        return res;
     } catch (e) {
         console.log(e);
         return false;
